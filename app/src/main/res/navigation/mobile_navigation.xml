@@ -10,5 +10,15 @@
             android:name="cz.vsb.fei.pol0423.tamz.ui.home.HomeFragment"
             android:label="@string/menu_home"
             tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/nav_today" android:name="cz.vsb.fei.pol0423.tamz.ui.other.TodayFragment"
+              android:label="@string/menu_today" tools:layout="@layout/nav_today"/>
+    <fragment android:id="@+id/nav_week" android:name="cz.vsb.fei.pol0423.tamz.ui.other.WeekFragment"
+              android:label="@string/menu_week" tools:layout="@layout/nav_week"/>
+    <fragment android:id="@+id/nav_settings" android:name="cz.vsb.fei.pol0423.tamz.ui.other.SettingsFragment"
+              android:label="@string/action_settings"/>
+    <fragment android:id="@+id/nav_maps" android:name="cz.vsb.fei.pol0423.tamz.ui.other.MapsFragment"
+              android:label="nav_maps" tools:layout="@layout/nav_maps"/>
+    <fragment android:id="@+id/nav_about" android:name="cz.vsb.fei.pol0423.tamz.AboutFragment"
+              android:label="nav_about" tools:layout="@layout/nav_about"/>
 
 </navigation>
