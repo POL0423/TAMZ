@@ -17,7 +17,7 @@ in a nice graphic way. Set premises are as follows:
   - [ ] Graphic icons, the app icon, aesthetics
     - [x] App icon (launcher, status bar)
     - [x] Menu icons
-    - [ ] Weather icons
+    - [x] Weather icons
     - [ ] Weather cards
   - [ ] Translation keys and their default values
     - [x] Partial setting (in progress)
