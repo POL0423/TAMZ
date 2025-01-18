@@ -22,6 +22,7 @@ in a nice graphic way. Set premises are as follows:
   - [ ] Translation keys and their default values
     - [x] Partial setting (in progress)
   - [ ] Settings and their persistence
+    - [x] Partial setting (in progress) 
 - [ ] Finalization (note for myself: deadline before the exams period)
   - [ ] API functionality (data from CHMI)
   - [ ] Dynamic generation of present layer from aquired data
