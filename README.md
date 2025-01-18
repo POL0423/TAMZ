@@ -25,7 +25,7 @@ in a nice graphic way. Set premises are as follows:
     - [x] Partial setting (in progress) 
 - [ ] Finalization (note for myself: deadline before the exams period)
   - [ ] API functionality (data from CHMI)
-  - [ ] Dynamic generation of present layer from aquired data
+  - [ ] Dynamic generation of present layer from acquired data
   - [ ] Testing in a real device (Xiaomi Redmi Note 13 Pro)
   - [ ] Optionally translation to Czech language (not required to pass)
 
@@ -33,10 +33,10 @@ in a nice graphic way. Set premises are as follows:
 ### 2024-12-22 20:00 UTC
 I have greatly underestimated complexness of this task and thus
 failed to deliver complete basic skeleton of this app. The basic
-skeleton is half baked as of this time when writing this note.
+skeleton is half-baked as of this time when writing this note.
 I couldn't get to finish all promised features on time until
 the deadline, however the basic idea is still somewhat visible.
-Hopefully this is gonna be enough to count towards the minimum
+Hopefully this is going to be enough to count towards the minimum
 credit score.
 
 ## Presentation
