@@ -1,14 +1,22 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <PreferenceCategory
-            android:title="Forecast Settings">
+            android:title="Location Settings">
 
         <EditTextPreference
                 android:defaultValue="Ostrava, Czechia"
                 android:selectAllOnFocus="true"
                 android:singleLine="true"
-                android:title="Forecast Location" android:key="settings_forecast_location"
+                android:title="Manual Forecast Location" android:key="settings_forecast_location"
                 app:summary="Set, where on Earth you want your forecast to pull data from."/>
+        <SwitchPreference
+                android:defaultValue="false"
+                android:title="Use Current Location" android:key="current_location_use"
+                app:summary="Do you want to use location services to determine current location?"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+            android:title="Notifications">
+
         <SwitchPreference
                 android:defaultValue="false"
                 android:title="Forecast Notifications" android:key="settings_forecast_notifications"
