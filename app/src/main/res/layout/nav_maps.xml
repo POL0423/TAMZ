@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
 
     <com.mapbox.maps.MapView
-            android:id="@+id/mapView"
+            android:id="@+id/map_widget"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:mapbox_cameraTargetLat="49.81962462523343"
             app:mapbox_cameraTargetLng="18.264846860896057"
             app:mapbox_cameraZoom="2.0"
             app:mapbox_cameraPitch="0.0"
-            app:mapbox_cameraBearing="0.0">
+            app:mapbox_cameraBearing="0.0" android:apiKey="@string/mapbox_access_token"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent">
     </com.mapbox.maps.MapView>
     <Button
             android:id="@+id/select_location_button"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom"
-            android:layout_margin="8dp"
             android:background="@color/primary"
             android:text="Select a location"
-            android:textColor="@color/text"/>
+            android:textColor="@color/text"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="8dp"/>
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

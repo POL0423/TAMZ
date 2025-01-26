@@ -14,15 +14,15 @@ in a nice graphic way. Set premises are as follows:
 - [ ] Basic skeleton (note for myself: deadline 2024-12-22 22:59 UTC)
   - [x] Base key visual parts of the app (pages)
   - [x] Menu to glue those pages
-  - [ ] Graphic icons, the app icon, aesthetics
+  - [x] Graphic icons, the app icon, aesthetics
     - [x] App icon (launcher, status bar)
     - [x] Menu icons
     - [x] Weather icons
-    - [ ] Weather cards
+    - [x] Weather cards
   - [ ] Translation keys and their default values
     - [x] Partial setting (in progress)
   - [ ] Settings and their persistence
-    - [x] Partial setting (in progress) 
+    - [x] Partial setting (in progress)
 - [ ] Finalization (note for myself: deadline before the exams period)
   - [ ] API functionality (data from CHMI)
   - [ ] Dynamic generation of present layer from acquired data
@@ -38,6 +38,11 @@ I couldn't get to finish all promised features on time until
 the deadline, however the basic idea is still somewhat visible.
 Hopefully this is going to be enough to count towards the minimum
 credit score.
+
+### 2025-01-26 17:30 UTC
+A bit of fresh air helped me to get some oxygen for my brain,
+which I needed to properly think of something. I've managed
+to finish the base design
 
 ## Presentation
 The presentation is probably going to be done before the final exams.

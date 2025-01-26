@@ -154,7 +154,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="10 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity1"
                                         android:textAlignment="textEnd"
@@ -179,7 +179,7 @@
                                     android:layout_height="wrap_content" android:id="@+id/time2"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/partly_cloudy_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather2"
                                     android:layout_marginTop="4dp"/>
@@ -199,7 +199,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="10 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity2"
                                         android:textAlignment="textEnd"
@@ -224,12 +224,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time3"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/partly_cloudy_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather3"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="17 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature3"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -244,7 +244,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity3"
                                         android:textAlignment="textEnd"
@@ -274,7 +274,7 @@
                                     android:layout_height="48dp" android:id="@+id/weather4"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="19 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature4"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -289,7 +289,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity4"
                                         android:textAlignment="textEnd"
@@ -314,7 +314,7 @@
                                     android:layout_height="wrap_content" android:id="@+id/time5"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather5"
                                     android:layout_marginTop="4dp"/>
@@ -334,7 +334,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="10 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity5"
                                         android:textAlignment="textEnd"
@@ -359,12 +359,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time6"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather6"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="16 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature6"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -379,7 +379,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="12 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity6"
                                         android:textAlignment="textEnd"
@@ -404,12 +404,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time7"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/rain_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather7"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="15 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature7"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -424,7 +424,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="15 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity7"
                                         android:textAlignment="textEnd"
@@ -449,12 +449,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time8"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather8"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="15 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature8"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -469,7 +469,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="13 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity8"
                                         android:textAlignment="textEnd"
@@ -494,12 +494,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time9"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather9"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="16 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature9"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -514,7 +514,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="13 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity9"
                                         android:textAlignment="textEnd"
@@ -539,12 +539,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time10"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather10"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="16 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature10"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -559,7 +559,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="12 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity10"
                                         android:textAlignment="textEnd"
@@ -584,12 +584,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time11"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather11"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="15 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature11"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -604,7 +604,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="12 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity11"
                                         android:textAlignment="textEnd"
@@ -629,12 +629,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time12"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather12"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="14 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature12"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -649,7 +649,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="10 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity12"
                                         android:textAlignment="textEnd"
@@ -674,12 +674,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time13"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/partly_cloudy_3__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather13"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="14 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature13"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -694,7 +694,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity13"
                                         android:textAlignment="textEnd"
@@ -719,12 +719,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time14"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/moon_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather14"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="12 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature14"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -739,7 +739,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="8 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity14"
                                         android:textAlignment="textEnd"
@@ -764,12 +764,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time15"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/moon_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather15"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="11 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature15"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -784,7 +784,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="8 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity15"
                                         android:textAlignment="textEnd"
@@ -809,12 +809,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time16"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/moon_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather16"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="10 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature16"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -829,7 +829,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity16"
                                         android:textAlignment="textEnd"
@@ -854,12 +854,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time17"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/partly_cloudy_3__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather17"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="10 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature17"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -874,7 +874,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="8 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity17"
                                         android:textAlignment="textEnd"
@@ -899,12 +899,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time18"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/moon_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather18"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="10 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature18"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -919,7 +919,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity18"
                                         android:textAlignment="textEnd"
@@ -949,7 +949,7 @@
                                     android:layout_height="48dp" android:id="@+id/weather19"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="11 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature19"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -964,7 +964,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="10 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity19"
                                         android:textAlignment="textEnd"
@@ -989,12 +989,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time20"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather20"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="12 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature20"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -1009,7 +1009,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity20"
                                         android:textAlignment="textEnd"
@@ -1034,12 +1034,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time21"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/mostly_cloudy_2__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather21"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="12 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature21"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -1054,7 +1054,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="9 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity21"
                                         android:textAlignment="textEnd"
@@ -1079,12 +1079,12 @@
                                     android:layout_height="wrap_content" android:id="@+id/time22"
                                     android:textAlignment="center"/>
                             <ImageView
-                                    android:src="@drawable/sun_1__lightmode"
+                                    android:src="@drawable/partly_cloudy_1__lightmode"
                                     android:layout_width="match_parent"
                                     android:layout_height="48dp" android:id="@+id/weather22"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="11 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature22"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -1099,7 +1099,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="10 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity22"
                                         android:textAlignment="textEnd"
@@ -1129,7 +1129,7 @@
                                     android:layout_height="48dp" android:id="@+id/weather23"
                                     android:layout_marginTop="4dp"/>
                             <TextView
-                                    android:text="18 °C"
+                                    android:text="13 °C"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content" android:id="@+id/temperature23"
                                     android:layout_marginTop="4dp" android:textAlignment="center"/>
@@ -1144,7 +1144,7 @@
                                         android:layout_weight="1" android:layout_marginEnd="8dp"
                                         android:scaleType="fitStart"/>
                                 <TextView
-                                        android:text="11 %"
+                                        android:text="8 %"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content" android:id="@+id/humidity23"
                                         android:textAlignment="textEnd"

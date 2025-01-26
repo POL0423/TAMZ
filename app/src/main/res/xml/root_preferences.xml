@@ -8,7 +8,8 @@
                 android:selectAllOnFocus="true"
                 android:singleLine="true"
                 android:title="Manual Forecast Location" android:key="settings_forecast_location"
-                app:summary="Set, where on Earth you want your forecast to pull data from."/>
+                app:summary="Set, where on Earth you want your forecast to pull data from."
+                app:dependency="current_location_use"/>
         <SwitchPreference
                 android:defaultValue="false"
                 android:title="Use Current Location" android:key="current_location_use"
