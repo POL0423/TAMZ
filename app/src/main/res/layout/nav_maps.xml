@@ -15,7 +15,9 @@
             app:mapbox_cameraPitch="0.0"
             app:mapbox_cameraBearing="0.0" android:apiKey="@string/mapbox_access_token"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintBottom_toTopOf="parent">
     </com.mapbox.maps.MapView>
     <Button
             android:id="@+id/select_location_button"
@@ -24,9 +26,10 @@
             android:background="@color/primary"
             android:text="Select a location"
             android:textColor="@color/text"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="32dp"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+    />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
