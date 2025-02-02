@@ -1,5 +1,6 @@
 package cz.vsb.fei.pol0423.tamz.ui.other;
 
+import android.provider.DocumentsContract;
 import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -22,7 +23,6 @@ import com.mapbox.maps.MapView;
 import cz.vsb.fei.pol0423.tamz.R;
 
 public class MapsFragment extends Fragment {
-// TODO: Implement MapBox Fragment
 
 //    private OnMapReadyCallback callback = new OnMapReadyCallback() {
 //
@@ -48,8 +48,12 @@ public class MapsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        Log.d("MapBoxDebug", getString(R.string.mapbox_access_token));
+        //Log.d("MapBoxDebug", BuildConfig.MAPBOX_API_KEY);
         return inflater.inflate(R.layout.nav_maps, container, false);
+    }
+
+    public void onSelectLocation() {
+        // TODO: Implement location selection and geocoding API
     }
 
 //    @Override

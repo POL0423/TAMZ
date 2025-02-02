@@ -11,7 +11,7 @@
             android:layout_height="match_parent"
             app:mapbox_cameraTargetLat="49.81962462523343"
             app:mapbox_cameraTargetLng="18.264846860896057"
-            app:mapbox_cameraZoom="2.0"
+            app:mapbox_cameraZoom="10.0"
             app:mapbox_cameraPitch="0.0"
             app:mapbox_cameraBearing="0.0" android:apiKey="${MAPBOX_API_KEY}"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
