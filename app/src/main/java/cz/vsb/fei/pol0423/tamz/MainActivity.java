@@ -3,9 +3,7 @@ package cz.vsb.fei.pol0423.tamz;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Menu;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -20,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMainBinding binding;
     private NavController navController;
+    private WeatherData weatherData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
 
         this.navController = navController;
         binding.appBarMain.fab.setOnClickListener(view -> navController.navigate(R.id.nav_maps));
+
+        Log.d("MainActivity", getPackageName());
+        //weatherDataInterface = new WeatherData();
     }
 
     @Override

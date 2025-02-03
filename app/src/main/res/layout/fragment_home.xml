@@ -17,7 +17,7 @@
                 android:layout_height="match_parent">
 
             <TextView
-                    android:text="Next Forecast"
+                    android:text="Current Weather"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/caption_home" android:textStyle="bold"
                     android:textSize="25sp"
@@ -26,14 +26,14 @@
             <ImageView
                     android:src="@drawable/sun_1__lightmode"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/next_weather"
+                    android:layout_height="wrap_content" android:id="@+id/current_weather"
                     android:layout_marginEnd="16dp"
                     app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
                     android:layout_marginTop="16dp" android:contentDescription="Sunny"/>
             <TextView
                     android:text="20. 5. 2025 9:00 AM"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/next_datetime"
+                    android:layout_height="wrap_content" android:id="@+id/current_datetime"
                     app:layout_constraintTop_toBottomOf="@+id/caption_home"
                     android:layout_marginTop="16dp" app:layout_constraintStart_toStartOf="parent"
                     android:layout_marginStart="16dp"/>
@@ -45,28 +45,39 @@
                     android:layout_marginBottom="16dp" app:layout_constraintStart_toStartOf="parent"
                     android:layout_marginStart="16dp" android:contentDescription="Wind"/>
             <TextView
-                    android:text="NW"
+                    android:text="Gust: 2.5 m/s"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/next_wind"
+                    android:layout_height="wrap_content" android:id="@+id/current_wind_gust"
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:layout_marginBottom="16dp" app:layout_constraintStart_toEndOf="@+id/wind_img"
-                    android:layout_marginStart="8dp" android:height="32dp"
+                    android:layout_marginStart="8dp"
                     app:lineHeight="32dp" android:gravity="center_vertical"/>
+            <TextView
+                    android:text="2 m/s NW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/current_wind"
+                    app:layout_constraintBottom_toTopOf="@+id/current_wind_gust" android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/wind_img"/>
             <ImageView
                     android:src="@drawable/thermometer_3__lightmode"
                     android:layout_width="32dp"
-                    android:layout_height="32dp" android:id="@+id/next_temperature_icon"
+                    android:layout_height="32dp" android:id="@+id/current_temperature_icon"
                     app:layout_constraintBottom_toBottomOf="parent"
                     android:layout_marginBottom="16dp" android:layout_marginEnd="16dp"
                     app:layout_constraintEnd_toEndOf="parent" android:contentDescription="Temperature"/>
             <TextView
                     android:text="20 °C"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/next_temperature"
-                    android:height="32dp"
+                    android:layout_height="wrap_content" android:id="@+id/current_temperature"
+                    app:layout_constraintEnd_toStartOf="@+id/current_temperature_icon" android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toTopOf="@+id/current_temperature_feelslike"/>
+            <TextView
+                    android:text="Feels like: 18 °C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/current_temperature_feelslike"
                     android:gravity="center_vertical" android:textAlignment="textEnd"
                     app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="16dp"
-                    app:layout_constraintEnd_toStartOf="@+id/next_temperature_icon" android:layout_marginEnd="8dp"/>
+                    app:layout_constraintEnd_toStartOf="@+id/current_temperature_icon" android:layout_marginEnd="8dp"/>
             <ImageView
                     android:src="@drawable/drop_percentage__lightmode"
                     android:layout_width="32dp"
@@ -78,9 +89,10 @@
                     android:text="8 %"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/next_humidity"
-                    android:height="32dp" android:gravity="center_vertical" android:layout_marginBottom="16dp"
-                    app:layout_constraintBottom_toTopOf="@+id/next_wind" android:layout_marginStart="8dp"
-                    app:layout_constraintStart_toEndOf="@+id/humidity_icon"/>
+                    android:height="32dp" android:gravity="center_vertical"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/humidity_icon" android:layout_marginBottom="9dp"
+                    app:layout_constraintBottom_toTopOf="@+id/current_wind"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
